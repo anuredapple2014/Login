@@ -13,13 +13,13 @@ import {
 } from 'react-native';
 
 //import FacebookPost from './src/Screens/FacebookPost'
-import RestartAndReset from './src/Screens/RestartAndReset'
-
+//import RestartAndReset from './src/Screens/RestartAndReset'
+import MainPage from './src/Screens/DeviceInfo/MainPage'
 
 const App = () => {
  
   return (
-    <RestartAndReset/>
+    <MainPage/>
   );
 };
 
