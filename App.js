@@ -1,7 +1,7 @@
 //Just import it into App.js
 
 import React,{useEffect} from 'react';
-import { GoogleSignin, statusCodes } from '@react-native-google-signin/google-signin';
+//import { GoogleSignin, statusCodes } from '@react-native-google-signin/google-signin';
 
 import {
   Text,
@@ -14,12 +14,12 @@ import {
 
 //import FacebookPost from './src/Screens/FacebookPost'
 //import RestartAndReset from './src/Screens/RestartAndReset'
-import MainPage from './src/Screens/DeviceInfo/MainPage'
-
+//import MainPage from './src/Screens/DeviceInfo/MainPage'
+import GetHeightWidth from './src/Screens/GetHeightWidth'
 const App = () => {
  
   return (
-    <MainPage/>
+    <GetHeightWidth/>
   );
 };
 
