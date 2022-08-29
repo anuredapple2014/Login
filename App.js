@@ -12,14 +12,14 @@ import {
   Platform,
 } from 'react-native';
 
-import FacebookPost from './src/Screens/FacebookPost'
-
+//import FacebookPost from './src/Screens/FacebookPost'
+import RestartAndReset from './src/Screens/RestartAndReset'
 
 
 const App = () => {
  
   return (
-    <FacebookPost/>
+    <RestartAndReset/>
   );
 };
 
