@@ -15,11 +15,12 @@ import {
 //import FacebookPost from './src/Screens/FacebookPost'
 //import RestartAndReset from './src/Screens/RestartAndReset'
 //import MainPage from './src/Screens/DeviceInfo/MainPage'
-import GetHeightWidth from './src/Screens/GetHeightWidth'
+//import GetHeightWidth from './src/Screens/GetHeightWidth'
+import DigitalSignature from './src/Screens/DigitalSignature'
 const App = () => {
  
   return (
-    <GetHeightWidth/>
+    <DigitalSignature/>
   );
 };
 
