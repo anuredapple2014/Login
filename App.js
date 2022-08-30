@@ -16,11 +16,13 @@ import {
 //import RestartAndReset from './src/Screens/RestartAndReset'
 //import MainPage from './src/Screens/DeviceInfo/MainPage'
 //import GetHeightWidth from './src/Screens/GetHeightWidth'
-import DigitalSignature from './src/Screens/DigitalSignature'
+//import DigitalSignature from './src/Screens/DigitalSignature'
+//import FlatListPagination from './src/Screens/FlatListPagination'
+import MainScreen from './src/Screens/SQLiteDatabase/Pages/MainScreen';
 const App = () => {
  
   return (
-    <DigitalSignature/>
+    <MainScreen/>
   );
 };
 
